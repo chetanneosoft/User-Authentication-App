@@ -4,15 +4,22 @@ A React Native mobile application with complete user authentication functionalit
 
 ## 📦 Downloads
 
+The `Attatchments` folder contains the release APK and demo video for testing and demonstration purposes. These files are available in the code repository but may not display in the GitHub preview due to their large file size. You can download them directly from the repository.
+
 ### Release APK
-The release APK file is available in the `Attatchments` folder:
 - **Location:** `UserAuthenticationApp/Attatchments/UserAuthenticationApp-release.apk`
 - **Installation:** Download and install directly on Android devices
+- **Note:** File may not show in preview, but can be downloaded from the repository
 
 ### Demo Video
-A demo video showcasing the app functionality is available:
 - **Location:** `UserAuthenticationApp/Attatchments/Recording_UserAuthenticationApp.mp4`
 - **Content:** App walkthrough and feature demonstration
+- **Note:** Video may not show in preview, but can be downloaded from the repository
+
+**To access these files:**
+1. Navigate to the `UserAuthenticationApp/Attatchments/` folder in the repository
+2. Click on the file you want to download
+3. Click the "Download" button to get the file
 
 ## 📱 Features
 
