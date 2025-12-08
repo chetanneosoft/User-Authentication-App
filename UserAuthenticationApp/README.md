@@ -340,6 +340,87 @@ cd ..
 
 ## 📱 Testing
 
+### Automated Testing
+
+The app includes comprehensive test coverage using **Jest** and **React Native Testing Library**.
+
+**Test Statistics:**
+- ✅ **7 test suites**
+- ✅ **80 test cases**
+- ✅ **73.68% code coverage**
+
+#### Running Tests
+
+**Run all tests:**
+```bash
+npm test
+```
+
+**Run tests in watch mode:**
+```bash
+npm run test:watch
+```
+
+**Run tests with coverage:**
+```bash
+npm run test:coverage
+```
+
+#### Test Coverage
+
+**Overall Coverage: 73.68%**
+- **Statements:** 73.68%
+- **Branch:** 72%
+- **Functions:** 75%
+- **Lines:** 73.45%
+
+**File-wise Coverage:**
+- ✅ `CustomTextInput` - **100%**
+- ✅ `constants` - **100%**
+- ✅ `AuthContext` - **97.01%**
+- ✅ `HomeScreen` - **84.61%**
+- ✅ `validation.ts` - **81.25%**
+- ⚠️ `AppNavigator` - **72.41%**
+- ⚠️ `LoginScreen` - **51.85%**
+- ⚠️ `SignupScreen` - **56.81%**
+
+#### Test Files
+
+All test files are located in the `__tests__/` directory:
+
+1. **`validation.test.ts`** - Validation functions testing
+2. **`AuthContext.test.tsx`** - Authentication context testing (Login, Signup, Logout)
+3. **`LoginScreen.test.tsx`** - Login screen component testing
+4. **`SignupScreen.test.tsx`** - Signup screen component testing
+5. **`HomeScreen.test.tsx`** - Home screen component testing
+6. **`AppNavigator.test.tsx`** - Navigation logic testing
+7. **`App.test.tsx`** - App component testing
+
+#### Test Cases Covered
+
+**Authentication:**
+- ✅ User signup with valid/invalid data
+- ✅ User login with correct/wrong credentials
+- ✅ User logout functionality
+- ✅ Session persistence (AsyncStorage)
+- ✅ First-time user detection
+
+**UI Components:**
+- ✅ Screen rendering
+- ✅ Input field updates
+- ✅ Password visibility toggle
+- ✅ Loading states
+- ✅ Error messages
+- ✅ Navigation between screens
+
+**Error Handling:**
+- ✅ Invalid credentials
+- ✅ Empty field validation
+- ✅ Error clearing on input
+- ✅ Field preservation on error
+
+For detailed test documentation, see [`__tests__/README.md`](__tests__/README.md).
+
 ### Manual Testing Checklist
 
 - [ ] Signup with valid credentials

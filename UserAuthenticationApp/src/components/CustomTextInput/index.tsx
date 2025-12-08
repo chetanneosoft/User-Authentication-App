@@ -46,6 +46,7 @@ const CustomTextInput: React.FC<CustomTextInputProps> = ({
         />
         {secureTextEntry && onTogglePasswordVisibility && (
           <TouchableOpacity
+            testID="password-toggle"
             style={styles.eyeIcon}
             onPress={onTogglePasswordVisibility}>
             <Text style={styles.eyeIconText}>
